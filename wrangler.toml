@@ -1,4 +1,22 @@
-name = "epeius"
+name = "kr"
 main = "src/worker.js"
 compatibility_date = "2024-05-03"
+[[routes]]
+pattern = "kr.fadztunnell.my.id"
+custom_domain = true
+[[routes]]
+pattern = "ava.game.naver.com.kr.fadztunnell.my.id"
+custom_domain = true
+[[routes]]
+pattern = "blog.sushiroll.co.id.kr.fadztunnell.my.id"
+custom_domain = true
+[[routes]]
+pattern = "blog.webex.com.kr.fadztunnell.my.id"
+custom_domain = true
+[[routes]]
+pattern = "www.sushiroll.co.id.kr.fadztunnell.my.id"
+custom_domain = true
+
+[vars]
+UUID = "77f8c412-e65e-45b0-88e8-ef710acc926c"
 workers_dev = true
