@@ -3,7 +3,11 @@ import { connect } from "cloudflare:sockets";
 let password = 'fadztech';
 let proxyIP = ['131.186.28.236'];
 
-let addresses = ['77f8c412-e65e-45b0-88e8-ef710acc926c'];
+let addresses = [
+	// everything you want, When sub is empty, the local preferred domain name/preferred IP is enabled. If the port number is not provided, the default TLS port is 443, and the alias after the # sign is a remark
+	'77f8c412-e65e-45b0-88e8-ef710acc926c',
+	'
+];
 
 let sub = 'fadztech';
 let subconverter = 'url.v1.mk';// Clash subscription conversion backend, currently using Feiyang's subscription conversion function. Comes with fake node information to prevent leakage
