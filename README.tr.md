@@ -21,7 +21,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 <details>
 <summary> Use </summary>
 
--   Bu proje yalnızca öğrenme, araştırma ve güvenlik testi amacıyla tasarlanmış ve geliştirilmiştir. Güvenlik araştırmacılarına, akademisyenlere ve teknoloji meraklılarına ağ iletişim teknolojisini anlamak ve uygulamak için bir araç sağlamayı amaçlamaktadır.
+-   Bu proje yalnızca öğrenme, araştırma ve güvenlik testi amacıyla tasarlanmış ve geliştirilmiştir. Güvenlik araştırmacılarına, akademisyenlere ve teknoloji meraklılarına ağ iletişim teknolojisini anlama ve uygulama konusunda bir araç sağlamayı amaçlamaktadır.
     </details>
 
 <details>
@@ -47,7 +47,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 
     -   3\. satırı değiştir`password`Kendinize göre değiştirin**şifre**
 
-    -   Alternatif olarak, doğrudan dağıtmak için aşağıdaki düğmeye tıklayabilirsiniz.
+    -   Alternatif olarak doğrudan dağıtmak için aşağıdaki düğmeye tıklayabilirsiniz.
 
     [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/NiREvil/Trauma)
 
@@ -80,7 +80,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 
 1.  Cloudflare Sayfalarını Dağıtın:
     -   Çatal[Github'daki bu proje](https://github.com/NiREvil/Trauma/fork)
-    -   Cloudflare Sayfaları konsolunda seçin`Connected to Git`Bundan sonra seçin`trauma`Öğeden sonra tıklayın`Start setting up`。
+    -   Cloudflare Sayfaları konsolunda seçin`Connected to Git` After that, select `trauma`Öğeden sonra tıklayın`Start setting up`。
     -   var olmak`Setting up build and deployment`Sayfanın alt kısmında`Environment variables (advanced)`daha sonra birleştir[Değişken ekle](#Environment-variables-description),
     -   Değişken adını girin**ŞİFRE**, değer şifrenizdir, ardından tıklayın`Save and deploy`Bu kadar.
 
@@ -106,7 +106,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 4.  CNAME özel alan adını Sayfalara bağlayın:
     -   Sayfalar konsolunda`Custom domains`sekme, aşağıya tıklayın`Set up a custom domain`.
     -   Özel ikincil alan adınızı girin, kök alan adınızı kullanmamaya dikkat edin, örneğin:
-    -   Size atanan alan adı`fuck.cloudns.biz`, ardından doldurulacak özel bir alan ekleyin`iran.fuck.cloudns.biz`Bu kadar;
+    -   Size atanan alan adı`fuck.cloudns.biz`ardından doldurulacak özel bir alan ekleyin`iran.fuck.cloudns.biz`Bu kadar;
     -   Cloudflare gereksinimlerine göre alan adı DNS servis sağlayıcınız iade edilecek ve özel alan adı eklenecektir.`trauma`CNAME kaydı`trauma.pages.dev`Bundan sonra tıklayın`Activate Domain`Bu kadar.
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
@@ -132,7 +132,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 | EKLEMEK          | [zula.ir,www.csgo.com:2087](http://zula.ir,www.csgo.com:2087)                                                                                  | Yerel tercih edilen alan adı/tercih edilen IP (birden fazla öğeyi destekler)`,`veya aralık olarak satır besleme)                                                                               |
 | ADDAPI           | <https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt>                                                                           | Açıklamaya gerek yok herkes anlıyor                                                                                                                                                            |
 | ADCCSV           |                                                                                                                                                | Açıklamaya gerek yok herkes anlıyor                                                                                                                                                            |
-| DLS              | 8                                                                                                                                              | Açıklamaya gerek yok herkes anlıyor                                                                                                                                                            |
+| DLS              | 8                                                                                                                                              | No need to explain, everyone understands                                                                                                                                                       |
 | TGTOKEN          | 6894123456:XXXXXXXXXX0qExVsBPUhHDAbXXXXXqWXgBA                                                                                                 | TG bildirimlerini göndermek için robot belirteci                                                                                                                                               |
 | SİZ YAPIYORSUNUZ | 6946912345                                                                                                                                     | TG bildirimlerini almak için hesap dijital kimliği                                                                                                                                             |
 | ALT              | trojan.fxxk.dedyn.io                                                                                                                           | Tercih edilen abonelik oluşturucu adresi (aboneyi kullanmak,`ADD`içinde yerel premium abonelik içeriği)                                                                                        |
