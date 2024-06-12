@@ -1,23 +1,11 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
-let password = 'auto';
-let proxyIP = ['ni.radically.pro'];// Or use 'usa.revil.link'
+let password = 'fadztech';
+let proxyIP = ['131.186.28.236'];// Or use 'usa.revil.link'
 
-let addresses = [
-	// everything you want, When sub is empty, the local preferred domain name/preferred IP is enabled. If the port number is not provided, the default TLS port is 443, and the alias after the # sign is a remark
-	'icook.hk:2083#꓃Tr -1',
-	'cdnjs.com:8443#꓃Tr -2',
-	'zula.ir:443#꓃Tr -3',
-	'sky.rethinkdns.com:2053#꓃Tr -4',
-	'www.speedtest.net:443#꓃Tr -5',
-	'time.cloudflare.com:2053#꓃Tr -6',
-	'go.inmobi.com:2096#꓃Tr -7',
-	'creativecommons.org:2087#꓃Tr -8',
-	'horsefucker.pages.dev:8443#꓃Tr -9',
-	'holyfuck.xcdi.workers.dev:2083#꓃Tr -10',
-];
+let addresses = ['77f8c412-e65e-45b0-88e8-ef710acc926c'];
 
-let sub = '';
+let sub = 'fadztech';
 let subconverter = 'url.v1.mk';// Clash subscription conversion backend, currently using Feiyang's subscription conversion function. Comes with fake node information to prevent leakage
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini";// Subscription Profile
 let RproxyIP = 'false';
@@ -26,7 +14,7 @@ let addressesapi = [];// you can use any addresses api's like this ['https://raw
 let addressescsv = [];
 let DLS = 8;
 
-let FileName = 'Trauma';
+let FileName = 'fadztech';
 let BotToken ='';
 let ChatID =''; 
 let proxyhosts = [];//Local proxy domain name pool
