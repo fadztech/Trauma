@@ -1,7 +1,7 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
 let password = 'fadztech';
-let proxyIP = ['131.186.28.236'];// Or use 'usa.revil.link'
+let proxyIP = ['131.186.28.236'];
 
 let addresses = ['77f8c412-e65e-45b0-88e8-ef710acc926c'];
 
